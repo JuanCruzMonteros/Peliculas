@@ -31,9 +31,7 @@ namespace PeliculasAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            var 
-            services.AddCors(options =>
-            {
+            services.AddCors(options =>            {
                 var frontend_url = Configuration.GetValue<string>("frontend_url");
                 options.AddDefaultPolicy(builder =>
                 {

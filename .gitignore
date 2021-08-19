@@ -1,0 +1,5 @@
+/back-end/obj/*
+*.dll
+*.cache
+*.pdb
+back-end/bin/Debug/net5.0/back-end.exe
